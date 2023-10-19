@@ -36,12 +36,20 @@ document.write('año: '+ anioActual + '<br>');
 document.write('año: '+ anioActual);
 
 //ventanas emergentes 
-alert('Esto es una prueba de alerta');
+//alert('Esto es una prueba de alerta');
 
-let color = prompt('ingrese un color');
-console.log(color);
+//let color = prompt('ingrese un color');
+//console.log(color);
 
+//solicitar al usuario  un numero, y al numero indicado por el usuario multiplicar 15
 
+let numeroSeleccionado = parseInt(prompt('ingrese un numero de 1 a 100'));
+
+console.log(numeroSeleccionado);
+console.log(numeroSeleccionado + 15);
+
+//parseInt('10') devuelve el numero transformado a entero
+//parseFloat('10.5')devuelve 10,5
 
 
 

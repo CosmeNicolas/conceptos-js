@@ -10,12 +10,11 @@ let numero1 = parseInt(prompt('ingrese un primer numero'));
 let numero2 = parseInt(prompt('ingrese un segundo numero'));
 //let numero3 = parseInt(prompt('ingrese un tercer numero'));
 
-if(numero1 > numero2){
-  console.log('El numero '+numero1 + ' es mayor que el numero' + numero2);
+if (numero1 > numero2) {
+  console.log('El numero ' + numero1 + ' es mayor que el numero' + numero2);
+} else if (numero2 > numero1) {
+ // console.log('El numero ' + numero2 + ' es mayor que el numero' + numero1);
+ document.wirite(`El numero ${numero2} es mayor que el numero ${numero1}`);
 } else {
-  if(numero2 > numero1) {
-    console.log('El numero '+numero2 + ' es mayor que el numero' + numero1);
-  }else{
-    console.log('Los numeros ingresados son iguales('+ numero2+ ')');
-  }
+  console.log('Los numeros ingresados son iguales(' + numero2 + ')');
 }

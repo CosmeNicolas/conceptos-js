@@ -38,7 +38,7 @@ document.write('año: '+ anioActual);
 //ventanas emergentes 
 //alert('Esto es una prueba de alerta');
 
-//let color = prompt('ingrese un color');
+//let color = prompt('ingrese un color'); tiene un input en su alert
 //console.log(color);
 
 //solicitar al usuario  un numero, y al numero indicado por el usuario multiplicar 15

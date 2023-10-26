@@ -1,3 +1,5 @@
+/*Bucles , son estructuras de repeticion como for , while , do while*/
+
 //while - la condicion logica se tiene q cumplir para q funcione
 /*
 while(condicion logica){
